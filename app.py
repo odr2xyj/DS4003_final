@@ -322,6 +322,7 @@ def update_graph(weight, age, gender, sleep_hours):
             title=title,
             yaxis_title=y_title,
             yaxis_tickfont=dict(size=10),
+            yaxis_title_font=dict(size=8),
             xaxis_showgrid=True,
             yaxis_showgrid=True,
             xaxis_gridcolor='lightgrey',
