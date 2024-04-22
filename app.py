@@ -71,7 +71,7 @@ app.layout = html.Div([
 
     # set up app title and sleep image, make them both centered
     html.Div(style={'display': 'flex', 'justify-content': 'center', 'align-items': 'center'}, children=[
-        html.H1("Sleep and Health Database", style={'font-size': '2.5rem'}),
+        html.H1("Sleep and Health Dashboard", style={'font-size': '2.5rem'}),
         html.Img(src=b64_image(image_path), style={'height': '100px', 'margin-left': '10px'})
     ]),
 
