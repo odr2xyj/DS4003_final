@@ -1,7 +1,9 @@
 dash==2.9.3
 numpy
+dash-bootstrap-components
 pandas
 scikit_learn
 plotly
 gunicorn
-matplotlib  
+matplotlib
+Pillow
