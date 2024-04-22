@@ -61,7 +61,7 @@ app.layout = html.Div([
     # set up nav bar with links to git hub and data source
     html.Nav([
         html.Ul([
-            html.Li(html.A("Link to Git Hub", href="https://github.com/odr2xyj", target="_blank", style={'color': 'white'})),
+            html.Li(html.A("Link to Git Hub", href="https://github.com/odr2xyj/DS4003_final", target="_blank", style={'color': 'white'})),
             html.Li(html.A("Link to Original Data Source", href="https://ropercenter.cornell.edu/ipoll/study/31115353", target="_blank", style={'color': 'white'}))  
         # make text to the right side
         ], style={'list-style-type': 'none', 'margin': '0', 'padding': '0', 'overflow': 'hidden', 'text-align': 'right'}),
